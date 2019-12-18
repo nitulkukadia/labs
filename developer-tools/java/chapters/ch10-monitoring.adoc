@@ -21,11 +21,11 @@ web                 0.14%               274.9MiB / 1.952GiB   13.75%            
 The output is continually updated. It shows:
 +
 .. Container name
-.. Percent CPU utilization
+.. Percent CPU utilization (the percentage of the host’s CPU and memory the container is using)
 .. Total memory usage vs amount available to the container
 .. Percent memory utilization
-.. Network activity
-.. Disk activity
+.. Network activity (The amount of data the container has sent and received over its network interface)
+.. Disk activity (The amount of data the container has read to and written from block devices on the host)
 .. PIDS??
 +
 . Check stats for multiple containers
